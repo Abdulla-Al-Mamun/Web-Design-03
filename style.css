@@ -1,0 +1,45 @@
+body{
+    background-image:linear-gradient(180deg, red,green,blue);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.height-width{
+    height: 450px;
+}
+
+.half-width{
+    width: 50%;
+    float: left;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.third-width{
+    width:29.33%;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+}
+
+.third-width img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.third-width h3{
+    text-align: center;
+}
+
+.third-width p{
+    text-align: justify;
+}
+
+.position{
+    position: relative;
+    top:60px;
+    left:20px;
+}
